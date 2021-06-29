@@ -20,6 +20,7 @@ class HtmlElement:
     @staticmethod
     def create(name):
         return HtmlBuilder(name)
+        
 class HtmlBuilder:
     def __init__(self, root_name) -> None:
         self.root_name = root_name
