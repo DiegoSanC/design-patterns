@@ -47,6 +47,14 @@ class BetterFormattedText:
         return ''.join(result)
 
 
+"""
+RESUMEN: 
+-almacenamos datos comunes de forma externa
+-especificamos un índice o una refenrecia para el almacenamiento de datos externo
+-utilizamos la idea de rangos en colecciones homogeneas para almacenar los rangos en lugar
+de los casos concretos
+"""
+
 
 if __name__ == "__main__":
     text = "esto es una prueba"
