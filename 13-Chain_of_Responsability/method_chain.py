@@ -70,3 +70,10 @@ if __name__ == "__main__":
     
     root.handle()
     print(goblin)
+
+    """
+    Command query separation:
+    command = asking for an action or change (eg: please set your attack value to 2)
+    query = asking for information (eg please give me your attack value)
+    CQS = having separate means of sending commands and queries to 
+    """
