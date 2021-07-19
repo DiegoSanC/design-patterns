@@ -67,3 +67,12 @@ if __name__ == "__main__":
     tp.clear()
     tp.append_list(items)
     print(tp)
+
+    """
+    RESUMEN:
+    Defines algoritmo a alto nivel
+    - Defines la interfaz que seguiran cada una de las estrategias
+    - Proporcionas diferentes estrategias
+    """
+
+    
