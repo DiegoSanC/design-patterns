@@ -48,3 +48,11 @@ if __name__ == "__main__":
     player.score()
     player.score()
     player.score()
+
+"""
+-Crear un mediador y tener cada objeto referenciado al mediador
+-El mediador permite la comunicación bidireccional entre sus componentes conectados
+-Los mediator tienen funciones a las que los componentes pueden llamar
+-Los componentes tienen funciones que pueden ser llamadas por el mediator
+-Hay bibliotecas de procesado de eventos (Rx) que hace la comunicación más simple de implementar
+"""
